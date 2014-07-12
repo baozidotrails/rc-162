@@ -1,3 +1,3 @@
 class Page < ActiveRecord::Base
-  attr_accessor :parent_id
+  has_ancestry
 end
